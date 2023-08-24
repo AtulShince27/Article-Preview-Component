@@ -1,0 +1,117 @@
+@media screen and (min-width : 375px) {
+    .container{
+        width: 80%;
+    }
+    .content-card{
+        display: grid;
+        grid-template-rows: auto;
+    }
+    .shelves-img img{
+        border-radius: 10px 10px 0px 0px;
+    }
+    .shelves-description h4{
+        font-size: 0.75rem;
+        margin-bottom: 5px;
+    }
+    .shelves-description p{
+        font-size: 0.5rem;
+    }
+    .footer-text h4{
+        font-size: 0.5rem;
+    }
+    .footer-text .author-details{
+        padding-top: 7.5px;
+        padding-left: 7.5px;
+    }
+    .share-column{
+        padding: 3px 5px;
+    }
+    .avatar #avatarMichelle{
+        width: 100%;
+    }
+    .share-column img{
+        width: 75%;
+    }
+    .share-column button{
+        padding: 1.5px 2.5px 3.5px;
+    }
+}
+@media screen and (min-width: 940px) {
+    .container{
+        width: 60%;
+    }
+    .content-card{
+        margin-top: 25%;
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+    .shelves-img img{
+        border-radius: 10px 0px 0px 10px;
+    }
+    .shelves-description h4{
+        font-size: 1.25rem;
+    }
+    .shelves-description p{
+        line-height: 1.5rem;
+        font-size: 1rem;
+    }
+    .footer-text .author-details{
+        padding: 10px 10px;
+    }
+    .share-column{
+        padding: 10px 10px;
+    }
+    .avatar #avatarMichelle{
+        width: 100%;
+    }
+    .share-column button{
+        padding: 5px 7.5px 8.5px;
+    }
+}
+body{
+    font-family: 'Manrope', sans-serif;
+    background-color: hsl(210, 46%, 95%);
+}
+.content-card{
+    background-color: white;
+    border-radius: 10px;
+}
+.shelves-img img{
+    width: 100%;
+    height: 100%;
+}
+.shelves-description{
+    padding: 3rem 3rem 1rem;
+}
+.shelves-description h4{
+    color: hsl(217, 19%, 35%);
+    font-weight: 700;
+}
+.shelves-description p{
+    color: hsl(214, 17%, 51%);
+    font-weight: 500;
+}
+.footer-text{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+.avatar #avatarMichelle{
+    width: 100%;
+    border-radius: 100%;
+}
+.share-column{
+    text-align: right;
+}
+.share-column button{
+    text-align: center;
+    border-radius: 100%;
+    border: none;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 2rem;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
